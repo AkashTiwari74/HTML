@@ -1,0 +1,41 @@
+h1{
+    border : 2px dashed red;
+    font-size: 3rem;
+    padding: 0.5em;
+    background-color: aquamarine;
+}
+*{
+    margin: 3px;
+    padding: 10px;
+    box-sizing:border-box ;
+}
+.p{
+    background-color: aqua;
+    font-size: 32px;
+    font-style: italic;
+    border: 5px dotted blue;
+    border:10px offset rebeccapurple; 
+    outline: 5px solid greenyellow;
+    outline-offset: -5px;
+    /* margin: 2px; */
+   /*  margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 2.5em;
+    /* margin-right: 1.5em;  OR */
+    /* margin : 1.5em 2em 5em;   The first one is for top and the second is for bottom the third is for left and right */
+
+    padding :1px
+}
+.circle{
+    background-color:gold;
+    width: 100px;
+    height: 100px;
+    border:5px solid green;
+    outline:5px solid red;
+    outline-offset: 5px;
+    margin:3em auto;
+    border-radius: 50px;
+}
+
+
+

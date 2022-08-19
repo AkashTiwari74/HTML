@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>first javascript</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                JAVASCRIPT
+            </h1>
+        </header>
+    <script>
+        let myvar = "hello friend";
+        console.log(myvar.length);
+        console.log("HELLO");
+        console.log(typeof "hello friend");
+        console.log(typeof false);
+        let myvar1 = "hello world";
+        console.log(myvar1.charAt(10));
+        console.log(myvar1.indexOf("lo"));
+        console.log(myvar1.slice(4,8));
+        console.log(myvar1.toUpperCase());
+        console.log(myvar1.includes("world"));
+        
+        var array = [1,2,3,4,5];
+        console.log(array.splice(2));
+
+        var num = 15;
+        if(num > 50) {
+            console.log(num = num +40)
+            document.write("greater")
+        }
+        else{
+            console.log(num = num-10)
+            document.write("lesser  ")
+        }
+        document.write("<br>");
+        // let person= prompt("Please enter yourr name");
+        // if(person != null) {
+        //     document.write(" Hello " + person +"  How are u ? ")
+        // }
+
+        // let val1 = prompt("Enter first value : ");
+        // let val2 = prompt("Enter second value : ");
+
+        // if(val1 == val2) {
+        //     document.write("Equal");                     // user input
+        // }
+        // else{
+        //     document.write("Not Equal");
+        // }
+
+        for(i =1;i<=10;i++) {
+            document.write(i+"<br>");
+        }
+        let fact = 1;
+        let val = prompt("Enter the value whose factorial u want");
+        for(i=val;i>=1;i--) {
+            fact = fact*i;
+        }
+        document.write(fact);
+    </script>
+    </body>
+</html>
+
+
+
+
+
